@@ -35,3 +35,21 @@
 Additionally, foreign key constraints have been added to the `FactBillings` table to maintain data integrity. These constraints ensure that the keys in the fact table correspond to valid keys in the dimension tables.
 
 In summary, this set of tables is a fundamental structure for a data warehouse in a hospital setting. It allows for the storage and analysis of data related to patient episodes, services, billing, and various date and time attributes. The data in the fact table, `FactBillings`, can be analyzed alongside the dimensions to gain insights into the hospital's operations and finances.
+
+# 2 Steps
+
+**Data Modeling and Design:**
+Create a logical and physical data model for the data warehouse. This includes designing dimension and fact tables.
+Implement a star schema design, where fact tables (e.g., "FactBillings") are connected to dimension tables (e.g., "DimPatients," "DimServices," "DimDate," "DimTime," and "DimEpisodes").
+![Screenshot 2023-10-12 213636](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/194d4ee5-b763-47b0-aa2c-2354bc7d8c4b)
+
+**Used the Visual studio to Create ETL Packages (SSIS)**
+![Screenshot 2023-10-12 213449](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/c228bd33-bf94-4127-ab02-8a2c2fd1a33e)
+![Screenshot 2023-10-12 213508](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/f0a8c309-4f34-4bfb-9fba-df204108ba7c)
+![Screenshot 2023-10-12 213521](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/da4b8f89-9d89-42bd-af8c-63c70e9b5ade)
+![Screenshot 2023-10-12 213536](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/9b495a4e-8b76-4547-b3d5-44bcafc9f0a9)
+![Screenshot 2023-10-12 213551](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/d32a6797-8af8-4f6b-a8ff-d91e8f85a629)
+![Screenshot 2023-10-12 213609](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/ebef6af2-ad2f-4433-b636-f8b0723409b7)
+
+
+
