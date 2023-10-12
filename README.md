@@ -43,7 +43,10 @@ Create a logical and physical data model for the data warehouse. This includes d
 Implement a star schema design, where fact tables (e.g., "FactBillings") are connected to dimension tables (e.g., "DimPatients," "DimServices," "DimDate," "DimTime," and "DimEpisodes").
 ![Screenshot 2023-10-12 213636](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/194d4ee5-b763-47b0-aa2c-2354bc7d8c4b)
 
-**Used the Visual studio to Create ETL Packages (SSIS)**
+# 3 ETL (Extract, Transform, Load) Processes:
+
+Develop ETL processes to extract data from source systems, transform it to fit the data model, and load it into the data warehouse.
+Ensure data quality by performing data cleansing, validation, and enrichment during the transformation phase.
 ![Screenshot 2023-10-12 213449](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/c228bd33-bf94-4127-ab02-8a2c2fd1a33e)
 ![Screenshot 2023-10-12 213508](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/f0a8c309-4f34-4bfb-9fba-df204108ba7c)
 ![Screenshot 2023-10-12 213521](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/da4b8f89-9d89-42bd-af8c-63c70e9b5ade)
