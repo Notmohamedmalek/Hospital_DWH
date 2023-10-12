@@ -1,6 +1,7 @@
 # Hospital_DWH
 
-# 1 Information about the Dimension and Fact tables
+# Dimension and Fact tables
+
 1. **DimEpisodes Table**:
    - This table stores information related to episodes in the hospital.
    - `Episode_Key_SK` and `Episode_Key_BK` are keys for uniquely identifying episodes.
@@ -36,14 +37,13 @@ Additionally, foreign key constraints have been added to the `FactBillings` tabl
 
 In summary, this set of tables is a fundamental structure for a data warehouse in a hospital setting. It allows for the storage and analysis of data related to patient episodes, services, billing, and various date and time attributes. The data in the fact table, `FactBillings`, can be analyzed alongside the dimensions to gain insights into the hospital's operations and finances.
 
-# 2 Steps
+# Data Modeling and Design:
 
-**Data Modeling and Design:**
 Create a logical and physical data model for the data warehouse. This includes designing dimension and fact tables.
 Implement a star schema design, where fact tables (e.g., "FactBillings") are connected to dimension tables (e.g., "DimPatients," "DimServices," "DimDate," "DimTime," and "DimEpisodes").
 ![Screenshot 2023-10-12 213636](https://github.com/Notmohamedmalek/Hospital_DWH/assets/57952560/194d4ee5-b763-47b0-aa2c-2354bc7d8c4b)
 
-# 3 ETL (Extract, Transform, Load) Processes:
+# ETL (Extract, Transform, Load) Processes:
 
 Develop ETL processes to extract data from source systems, transform it to fit the data model, and load it into the data warehouse.
 Ensure data quality by performing data cleansing, validation, and enrichment during the transformation phase.
